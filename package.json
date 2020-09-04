@@ -1,0 +1,27 @@
+{
+  "name": "html-to-pdf",
+  "version": "1.0.0",
+  "description": "html to pdf converter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonaldRusso94/HTML-To-PDF.git"
+  },
+  "author": "Ronald Russo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonaldRusso94/HTML-To-PDF/issues"
+  },
+  "homepage": "https://github.com/RonaldRusso94/HTML-To-PDF#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pdfkit": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
